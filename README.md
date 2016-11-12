@@ -1,4 +1,4 @@
-Welcome to the bowling-game-verilog wiki!
+Welcome to the bowling-game-verilog!
 
 The bowling game run on FPGA kit.
 
