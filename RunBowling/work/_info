@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\SIMU\RunBowling
+vBowling
+I@BdPjWe_^[5@Tf<R?b:zN0
+V[HCbzn=]lTQYDUA5DMbiQ2
+w1478933127
+8F:/SIMU/RunBowling/Bowling.v
+FF:/SIMU/RunBowling/Bowling.v
+L0 6
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-work work -O0
+n@bowling
+!s100 cmZ[SG0I?MIk8kN6e5@6X3
+!s85 0
+!s101 -O0
+vLed7Seg
+I@bz]<ZOK<R48g@2_DGST22
+VZP=15j]Jk>ohAH^Z6W1TJ0
+w1478931926
+8F:/SIMU/RunBowling/Led7Seg.v
+FF:/SIMU/RunBowling/Led7Seg.v
+L0 1
+R1
+r1
+31
+R2
+n@led7@seg
+!s100 JFjUEVXX:;3z4j^VKIaiB0
+!s85 0
+!s101 -O0
+vOutPoint
+IfL4d@C:[[Z0T^UiD7C<Fo1
+V3@Gb2jj@nN<;z`44jm4_i2
+w1478141708
+8F:/SIMU/RunBowling/OutPoint.v
+FF:/SIMU/RunBowling/OutPoint.v
+L0 1
+R1
+r1
+31
+R2
+n@out@point
+!s100 b[ibf;eICYc<ZbdW@eI3B0
+!s85 0
+!s101 -O0
+vOutReg7Seg
+Io:HZ[nXIK_<oS@26gK^Fe1
+V0KB4jhHQ@zRMQ<k[CY?a02
+w1478931937
+8F:/SIMU/RunBowling/OutReg7Seg.v
+FF:/SIMU/RunBowling/OutReg7Seg.v
+L0 1
+R1
+r1
+31
+R2
+n@out@reg7@seg
+!s100 aPM<H7]0N:=QWVBoOdcUe2
+!s85 0
+!s101 -O0
+vTestBench
+IH]LBHfQKDlnWP8_^T3lFB0
+VH;VS]59WmQ>4a<zRibM9Z0
+w1478933046
+8F:/SIMU/RunBowling/TestBenchBowling.v
+FF:/SIMU/RunBowling/TestBenchBowling.v
+L0 1
+R1
+r1
+31
+R2
+n@test@bench
+!s100 ?TKi<Q6A1zEz4g;Dj[6[U1
+!s85 0
+!s101 -O0
+vTestLed
+!s100 6a0Pc5zY@E<0LN4EGefLY3
+I8LRU2Yg=f;1b:_z1RFFj:0
+V2onJkV97L?1BJ`d2IjRWU0
+w1478931914
+8F:/SIMU/RunBowling/TestLeg.v
+FF:/SIMU/RunBowling/TestLeg.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+n@test@led
