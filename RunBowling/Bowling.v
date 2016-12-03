@@ -275,8 +275,16 @@ always@(posedge button)begin
 	else if(pointer == FRAME_4)begin	
 		if(frame4Done[1] == false)begin
 ////////////////////////////////////////////////////
-			if(frameDone[1] == false)
+			if(frameDone[1] == false)begin
 				frameDone[1] <= true;
+				if((frameDone[2] == false)&&(point2_1 == 10))begin
+					//if(point2_1 == 10)begin // frame 2 strike
+						point1 <= 20 + point3_1;
+					
+					//end
+				end
+				
+			end
 		/////2222222222222222222222222
 			if(frameDone[2] == false)
 				if(point2_1 != 10)
@@ -358,8 +366,16 @@ always@(posedge button)begin
 	if(pointer == FRAME_5)begin
 		if(frame5Done[1] == false)begin
 			///////////////////////////222
-			if(frameDone[2] == false)
+			if(frameDone[2] == false)begin
 				frameDone[2] <= true;
+				if((frameDone[3] == false)&&(point3_1 == 10))begin
+					//if(point2_1 == 10)begin // frame 2 strike
+						point2 <= 20 + point4_1;
+					
+					//end
+				end
+				
+			end
 			////333333333
 			if(frameDone[3] == false)
 				if(point3_1 != 10)
@@ -435,8 +451,12 @@ always@(posedge button)begin
 	if(pointer == FRAME_6)begin
 		if(frame6Done[1] == false)begin
 		//////////3333333333
-			if(frameDone[3] == false)
-				frameDone[3] <= true;
+			if((frameDone[4] == false)&&(point4_1 == 10))begin
+					//if(point2_1 == 10)begin // frame 2 strike
+						point3 <= 20 + point5_1;
+					
+					//end
+				end
 		////444444
 			if(frameDone[4] == false)
 					if(point4_1 != 10)
@@ -511,8 +531,15 @@ always@(posedge button)begin
 	if(pointer == FRAME_7)begin
 		if(frame7Done[1] == false)begin
 		//////444444444
-			if(frameDone[4] == false)
+			if(frameDone[4] == false)begin
 				frameDone[4] <= true;
+				if((frameDone[5] == false)&&(point5_1 == 10))begin
+					//if(point2_1 == 10)begin // frame 2 strike
+						point4 <= 20 + point6_1;
+					
+					//end
+				end
+			end
 		
 		////555555
 			if(frameDone[5] == false)
@@ -592,8 +619,16 @@ always@(posedge button)begin
 	if(pointer == FRAME_8)begin
 		if(frame8Done[1] == false)begin
 		////55555555555555
-			if(frameDone[5] == false)
+			if(frameDone[5] == false)begin
 				frameDone[5] <= true;
+				if((frameDone[6] == false)&&(point6_1 == 10))begin
+					//if(point2_1 == 10)begin // frame 2 strike
+						point5 <= 20 + point7_1;
+					
+					//end
+				end
+				
+			end
 		///666666
 			if(frameDone[6] == false)
 					if(point6_1 != 10)
@@ -668,8 +703,16 @@ always@(posedge button)begin
 	if(pointer == FRAME_9)begin
 		if(frame9Done[1] == false)begin
 		//////666666
-			if(frameDone[6] == false)
+			if(frameDone[6] == false)begin
 				frameDone[6] <= true;
+				
+				if((frameDone[7] == false)&&(point7_1 == 10))begin
+					//if(point2_1 == 10)begin // frame 2 strike
+						point6 <= 20 + point8_1;
+					
+					//end
+				end
+			end
 		/////7777777
 			if(frameDone[7] == false)
 					if(point7_1 != 10)
@@ -745,6 +788,12 @@ always@(posedge button)begin
 		//////////////7777777
 			if(frameDone[7] == false) begin
 				frameDone[7] <= true;
+				if((frameDone[8] == false)&&(point8_1 == 10))begin
+					//if(point2_1 == 10)begin // frame 2 strike
+						point7 <= 20 + point9_1;
+					
+					//end
+				end
 			end
 		////8888 strike
 			if(point8_1 == 10)begin

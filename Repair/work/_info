@@ -4,9 +4,9 @@ K3
 cModel Technology
 Z0 dF:\SIMU\Repair
 vBowling
-IUnjogMkTlKBXQX:holhVH1
+IOn_FzCobLL9<H7Z5dAj3S2
 VbZg:ED]^0W]M>d8cRPVgG1
-w1478696003
+w1480761367
 8F:/SIMU/Repair/Bowling.v
 FF:/SIMU/Repair/Bowling.v
 L0 5
@@ -15,7 +15,7 @@ r1
 31
 Z2 o-work work -O0
 n@bowling
-!s100 :fl>zWbC>`Q00W]B0I<g93
+!s100 JK[1[ESgF?m<R=31P_U;W3
 !s85 0
 !s101 -O0
 vOutPoint
@@ -34,7 +34,6 @@ n@out@point
 !s85 0
 !s101 -O0
 vTestBench
-!s100 7cU8LVNnziNBU[PglATY?1
 IzKj2T?3kWHnZ`=Q=[gG`L2
 VH;VS]59WmQ>4a<zRibM9Z0
 w1478692125
@@ -43,8 +42,24 @@ FF:/SIMU/Repair/TestBenchBowling.v
 L0 1
 R1
 r1
+31
+R2
+n@test@bench
+!s100 7cU8LVNnziNBU[PglATY?1
+!s85 0
+!s101 -O0
+vTestBenchRepair
+!s100 7`FVIAz>;3;K>6Bg=kXI@0
+ISOQkZh[7fYKzi[hNG^km<1
+VIRPQccaR@2e5@H[f7aiYa3
+w1480759756
+8F:/SIMU/Repair/TestBenchBowlingRepair.v
+FF:/SIMU/Repair/TestBenchBowlingRepair.v
+L0 1
+R1
+r1
 !s85 0
 31
 !s101 -O0
 R2
-n@test@bench
+n@test@bench@repair
